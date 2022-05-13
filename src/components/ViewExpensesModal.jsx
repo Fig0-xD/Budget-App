@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal, Stack } from "react-bootstrap";
 
-import { currencyFormatter } from "../utils";
+import { currencyFormatter } from "../utilities/utils";
 import { useBudgets, UNCATEGORIZED_BUDGET_ID } from "../contexts/BudgetsContext";
 
 const ViewExpensesModal = ({ budgetId, handleClose }) => {
